@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Multilayer Perceptron - POC
+</title>
+<style>
+button:hover{
+	background-color: white;
+	color:black;
+}
+</style>
+</head>
+<body>
+<div id="main_content"><div id="score_container" style="font-size: 20px; display: inline-block;">SCORE : 
+<div id="score" style="font-size: 20px; display: inline;">0</div></div>
+<div id="game_over" style="display:inline-block; font-size:20px; margin-left: 250px; font-weight:bold;"></div>
+<div id="r_h_s" style="margin-top: 10px;"><div id="play_again_btn" style="display: inline-block;"><button id="play_again" style="color: white;border: none; padding: 4px 10px; font-weight:bold; background-color: #285e9e; border-radius: 2px; cursor:pointer; margin-bottom: 10px;"onclick="game_area.start()">Restart</button></div>
+<div id="high-scores" style="display: inline-block; margin-left: 50px; font-weight: bold;"></div></div>
+<canvas id="snakes" height="570px" width="800px" style="border: 2px solid black"></canvas>
+<script type="text/javascript" src="s.js"></script>
+<script type="text/javascript" src="random_moves.js"></script>
+</div>
+</body>
+</html>
